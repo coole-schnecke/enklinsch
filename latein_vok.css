@@ -1,0 +1,41 @@
+button{
+  background-color: rgb(180, 180, 180);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 10px;
+}
+p{
+  padding-left: 15px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abfrage{
+  display: none;
+}
+#deutsch_latein{
+  color: white;
+}
+#latein_deutsch{
+  color: white;
+}
+.fabeln{
+  display: none;
+}
+.andere{
+  display: none;
+}
+.kategorie{
+  background-color: rgb(14, 139, 153);
+}
+.richtung{
+  background-color: rgb(203, 147, 225);
+}
+#button_start{
+  background-color: rgb(147, 147, 197);
+}
+.richtigfalsch{
+  background-color: rgb(144, 144, 144);
+}

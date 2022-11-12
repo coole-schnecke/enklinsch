@@ -172,9 +172,9 @@ function neue_vok_anzeigen(){
     if (zu_bearbeiten.length >= 1){
         grammatik_wert = 0;
         uebersetzung_wert = 0;
-        document.getElementById("button_grammatik").innerHTML = "Grammatik zeigen";
+        document.getElementById("button_grammatik").innerHTML = "Tierzelle / Pflanzenzelle";
         document.getElementById("grammatik").style.display = "none";
-        document.getElementById("button_uebersetzung").innerHTML = "Übersetzung zeigen";
+        document.getElementById("button_uebersetzung").innerHTML = "Funktion / Erklärung zeigen";
         document.getElementById("uebersetzung").style.display = "none";
         var anzahl_übrige = zu_bearbeiten.length;
         document.getElementById("array_length").innerHTML= anzahl_übrige;
@@ -253,7 +253,7 @@ function vokabel_abfrag_modus_starten(){
     for (let element of document.getElementsByClassName("richtung")){
         element.style.backgroundColor = "rgb(203, 147, 225)";
     }
-    document.getElementById("button_fabeln").innerHTML = "Zellen +";
+    document.getElementById("button_fabeln").innerHTML = "Auswahl +";
     document.getElementById("button_andere").innerHTML = "Andere +";
     for (let element of document.getElementsByClassName("vokabeln")){
         element.style.backgroundColor = "rgb(180, 180, 180)";
@@ -485,13 +485,13 @@ function fabeln_ausklappen_einklappen(){
             element.style.display="inline-block";
         }
         fabeln_button_wert = 1
-        document.getElementById("button_fabeln").innerHTML = "Zellen -";
+        document.getElementById("button_fabeln").innerHTML = "Auswahl -";
     }else{
         for (let element of document.getElementsByClassName("fabeln")){
             element.style.display="none";
          }
         fabeln_button_wert = 0
-        document.getElementById("button_fabeln").innerHTML = "Zellen +";
+        document.getElementById("button_fabeln").innerHTML = "Auswahl +";
     }
 }
 
